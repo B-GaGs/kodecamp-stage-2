@@ -140,12 +140,14 @@ header{
     justify-content: center;
     margin: 0 auto;
 }
-.pixs, .article{
-    height: 35rem;
+.article{
     display: flex;
     align-items: center;
 }
 .pixs{
+    height: 35rem;
+    display: flex;
+    align-items: center;
     border: red;
     flex-grow: 1;
     flex-shrink: 0;
